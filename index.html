@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b34d75051a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Felix</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="#home" class="navbar__links" id="home-page">Startseite</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#about" class="navbar__links" id="about-page">Über mich</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#services" class="navbar__links" id="services-page">Services</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="#sign-up" class="button" id="signup">Spenden</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading"> Wer bin <span>Ich</span> ?</h1>
+            <p class="hero__description">Ich bin Felix Hempel</p>
+            <button class="main__btn"><a href="#about">Über mich</a></button>
+        </div>
+    </div>
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"><i class="fas fa-cannabis"></i></div>
+            </div>
+            <div class="main__content">
+                <h1>Was mache ich ?</h1>
+                <h2>In meiner Freizeit programiere ich gerne und baue cannabis an.</h2>
+                <p>rufe mich an, oder siehe meinen Blog um mehr über meinen life style heraus zu finden. </p>
+                <button class="main__btn"><a href="#services">zum Blog</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <h1>Mein lifestyle</h1>
+        <div class="services__wrappers">
+            <div class="services__card">
+                <h2>cannabis anbau</h2>
+                <p>finde heraus wie ich mit wenig geld viel angebaut habe</p>
+                <div class="services__btn"><button>Zum Blog</button></div>
+            </div>
+            <div class="services__card">
+                <h2>Programmieren</h2>
+                <p>lerne Programmieren in kurzer Zeit</p>
+                <div class="services__btn"><button>Zum Blog</button></div>
+            </div>
+            <div class="services__card">
+                <h2>Krypto trading</h2>
+                <p>Lerne die Grundlagen des Krypto trading kennen</p>
+                <div class="services__btn"><button>Zum Blog</button></div>
+            </div>
+            <div class="services__card">
+                <h2>Buisneses</h2>
+                <p>Erfahre wie man mit wenig Geld zu viel Umsatz kommt</p>
+                <div class="services__btn"><button>Zum Blog</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="main" id="sign-up">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Warum sollte ich spenden ?</h1>
+                <h2>Ich kann diese Spenden gut gebrauchen</h2>
+                <p>ich bin ein junger junge mit viel Talent kann es aber ohne Geld nicht nutzen.</p>
+                <button class="main__btn"><a href="#services">Zum spenden</a></button>
+            </div>
+            <div class="main__img--container">
+                <div class="main__img--card" id="card-2"><i class="fas fa-dollar-sign"></i></div>   
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__links--wrappers">
+                <div class="footers__links--items">
+                    <h2>Über mich</h2>
+                    <a href="/sign-up">Telefonnummer</a>
+                    <a href="/sign-up">E-mail</a>
+                    <a href="/sign-up">Adresse</a>
+                </div>
+                <div class="footers__links--items">
+                    <h2>Über mich</h2>
+                    <a href="/sign-up">Telefonnummer</a>
+                    <a href="/sign-up">E-mail</a>
+                    <a href="/sign-up">Adresse</a>
+                </div>
+            </div>
+            <div class="footer__links--wrappers">
+                <div class="footers__links--items">
+                    <h2>Über mich</h2>
+                    <a href="/sign-up">Telefonnummer</a>
+                    <a href="/sign-up">E-mail</a>
+                    <a href="/sign-up">Adresse</a>
+                </div>
+                <div class="footers__links--items">
+                    <h2>Social Media</h2>
+                    <a href="/sign-up">instagram</a>
+                    <a href="/sign-up">Tik Tok</a>
+                    <a href="/sign-up">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">Color</a>
+                </div>
+                <p class="website__rights">© FELIX HEMPEL All rights reserved.</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link"><i class="fab fa-facebook"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-snapchat"></i></a>
+                    <a class="social__icon--link" onclick="fill_heart()"><i id="heart" class="far fa-heart"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
